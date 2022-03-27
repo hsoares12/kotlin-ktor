@@ -18,7 +18,7 @@ class WalletTest {
     }
 
     @Test
-    fun `Given money in wallet should return empty`() {
+    fun `Given money in wallet should not return empty`() {
         val wallet = Wallet(noMoney)
 
         val actual: Boolean = wallet.isEmpty()
